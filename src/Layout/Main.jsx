@@ -5,9 +5,11 @@ import Footer from "../Pages/Home/Shared/Footer";
 function Main() {
   return (
     <>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+      <div className="max-w-screen-2xl mx-auto px-2">
+        <Navbar></Navbar>
+        <Outlet></Outlet>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
