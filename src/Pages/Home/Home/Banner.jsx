@@ -6,9 +6,9 @@ function Banner() {
   return (
     <div
       className="bg-cover bg-center pt-28 flex items-center justify-center"
-      style={{ backgroundImage: `url(${bannerImage})` }}
+    //   style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      <img className="hidden md:block md:h-[70vh]" src={home} alt="" />
+      <img className="hidden md:block w-1/2" src={home} alt="" />
       <div className="md:w-4/12 flex items-center text-center md:text-start md:items-start gap-3 justify-around flex-col">
         <h3 className="text-orange-500">Greater Learning</h3>
         <h1 className="text-2xl md:text-5xl font-bold">
